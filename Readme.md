@@ -11,4 +11,5 @@
 
 <br/>
 
+If you want to define a custom border around a focused cell or row, you can enable the [ShowFocusedRectangle](https://documentation.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ShowFocusedRectangle.property) property in your TableView and define custom [FocusedCellBorderTemplate](https://documentation.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.FocusedCellBorderTemplate.property) or [FocusedRowBorderTemplate](https://documentation.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.FocusedRowBorderTemplate.property). Please note that the focused rectangle is shown for cells or rows only when [NavigationStyle](https://documentation.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.NavigationStyle.property) is set to **Cell** or **Row**, respectively.
 
