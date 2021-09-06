@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_ChangeRowAppearance", "DXGrid_ChangeRowAppearance\DXGrid_ChangeRowAppearance.csproj", "{01AD0522-6757-4BF6-991E-C7DAC8ABE817}"
 EndProject
 Global
