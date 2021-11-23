@@ -5,7 +5,7 @@
         xmlns:dxgt="http://schemas.devexpress.com/winfx/2008/xaml/grid/themekeys"
         Title="Window1" Height="300" Width="505">
     <Window.Resources>
-        <Style x:Key="FocusedCellStyle" TargetType="dxg:LightweightCellEditor" BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}">
+        <Style x:Key="FocusedCellStyle" TargetType="dxg:LightweightCellEditor">
             <Style.Triggers>
                  <Trigger Property="dxg:DataViewBase.IsFocusedCell" Value="True">
                     <Setter Property="Background" Value="Green" />
