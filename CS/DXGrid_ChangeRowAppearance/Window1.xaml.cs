@@ -1,5 +1,5 @@
-﻿using System.Windows;
-using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace DXGrid_ChangeRowAppearance {
     public partial class Window1 : Window {
@@ -8,8 +8,8 @@ namespace DXGrid_ChangeRowAppearance {
             grid.ItemsSource = Products.GetData();
         }
         public class Products {
-            public static List<Product> GetData() {
-                List<Product> data = new List<Product>();
+            public static ObservableCollection<Product> GetData() {
+                ObservableCollection<Product> data = new ObservableCollection<Product>();
                data.Add(new Product() { ProductName = "Chai", 
                     UnitPrice = 18, UnitsOnOrder = 10 });
                 data.Add(new Product() { ProductName = "Ipoh Coffee",
