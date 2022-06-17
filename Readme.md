@@ -7,7 +7,7 @@
 
 This example demonstrates how to use the View's [RowStyle](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.RowStyle) and [CellStyle](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.CellStyle) properties to apply custom styles to the focused row and cell. To identify whether the row and cell are focused, the attached [IsFocusedRow](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.IsFocusedRow) and [IsFocusedCell](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.IsFocusedCell) properties are used.
 
-![image](https://user-images.githubusercontent.com/65009440/174086665-b5564ab8-2bd7-42b7-a9c9-277e263f5c26.png)
+![image](https://user-images.githubusercontent.com/65009440/174086665-b5564ab8-2bd7-42b7-a9c9-277e263f5c26.png) 
 
 If you want to define a custom border around a focused cell or row, you can enable the [ShowFocusedRectangle](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ShowFocusedRectangle) property and define custom [FocusedCellBorderTemplate](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.FocusedCellBorderTemplate) or [FocusedRowBorderTemplate](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.FocusedRowBorderTemplate). Note that the focused rectangle is shown for cells or rows only when [NavigationStyle](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.NavigationStyle) is set to **Cell** or **Row**, respectively.
 
