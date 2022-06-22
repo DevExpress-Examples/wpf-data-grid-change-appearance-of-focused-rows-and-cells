@@ -1,5 +1,5 @@
-﻿using System.Windows;
-using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace DXGrid_ChangeRowAppearance {
     public partial class Window1 : Window {
@@ -8,18 +8,33 @@ namespace DXGrid_ChangeRowAppearance {
             grid.ItemsSource = Products.GetData();
         }
         public class Products {
-            public static List<Product> GetData() {
-                List<Product> data = new List<Product>();
-               data.Add(new Product() { ProductName = "Chai", 
-                    UnitPrice = 18, UnitsOnOrder = 10 });
-                data.Add(new Product() { ProductName = "Ipoh Coffee",
-                    UnitPrice = 36.8, UnitsOnOrder = 12 });
-                data.Add(new Product() { ProductName = "Outback Lager",
-                    UnitPrice = 12, UnitsOnOrder = 25 });
-                data.Add(new Product() { ProductName = "Boston Crab Meat",
-                    UnitPrice = 18.4, UnitsOnOrder = 18 });
-                data.Add(new Product() { ProductName = "Konbu",
-                    UnitPrice = 6, UnitsOnOrder = 24 });
+            public static ObservableCollection<Product> GetData() {
+                ObservableCollection<Product> data = new ObservableCollection<Product>();
+                data.Add(new Product() {
+                    ProductName = "Chai",
+                    UnitPrice = 18,
+                    UnitsOnOrder = 10
+                });
+                data.Add(new Product() {
+                    ProductName = "Ipoh Coffee",
+                    UnitPrice = 36.8,
+                    UnitsOnOrder = 12
+                });
+                data.Add(new Product() {
+                    ProductName = "Outback Lager",
+                    UnitPrice = 12,
+                    UnitsOnOrder = 25
+                });
+                data.Add(new Product() {
+                    ProductName = "Boston Crab Meat",
+                    UnitPrice = 18.4,
+                    UnitsOnOrder = 18
+                });
+                data.Add(new Product() {
+                    ProductName = "Konbu",
+                    UnitPrice = 6,
+                    UnitsOnOrder = 24
+                });
                 return data;
             }
         }
