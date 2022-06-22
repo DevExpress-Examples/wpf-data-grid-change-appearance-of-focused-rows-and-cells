@@ -1,5 +1,5 @@
+Imports System.Collections.ObjectModel
 Imports System.Windows
-Imports System.Collections.Generic
 
 Namespace DXGrid_ChangeRowAppearance
 
@@ -13,8 +13,8 @@ Namespace DXGrid_ChangeRowAppearance
 
         Public Class Products
 
-            Public Shared Function GetData() As List(Of Product)
-                Dim data As List(Of Product) = New List(Of Product)()
+            Public Shared Function GetData() As ObservableCollection(Of Product)
+                Dim data As ObservableCollection(Of Product) = New ObservableCollection(Of Product)()
                 data.Add(New Product() With {.ProductName = "Chai", .UnitPrice = 18, .UnitsOnOrder = 10})
                 data.Add(New Product() With {.ProductName = "Ipoh Coffee", .UnitPrice = 36.8, .UnitsOnOrder = 12})
                 data.Add(New Product() With {.ProductName = "Outback Lager", .UnitPrice = 12, .UnitsOnOrder = 25})
