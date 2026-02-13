@@ -30,7 +30,7 @@ If you want to define a custom border around a focused cell or row, you can enab
 * [WPF Data Grid - Change the Appearance of Focused and Selected Rows](https://github.com/DevExpress-Examples/how-to-change-the-appearance-of-a-focused-data-row-and-selected-rows-e2066)
 * [WPF Data Grid - Change the Appearance of Focused and Selected Cells](https://github.com/DevExpress-Examples/how-to-change-selected-cells-appearance-when-gridcontrols-multi-cell-selection-is-enabled-e2568)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-change-appearance-of-focused-rows-and-cells&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-change-appearance-of-focused-rows-and-cells&~~~was_helpful=no)
 
